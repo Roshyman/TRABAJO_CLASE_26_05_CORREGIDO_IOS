@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		953FAE3D59FE999E730D19DB /* Pods_cocoaEjemploV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA24C2610895F08BEBE5037 /* Pods_cocoaEjemploV2.framework */; };
+		CE0E274120C2516B006D5951 /* ComentarioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E274020C2516B006D5951 /* ComentarioModel.swift */; };
 		CE11855C20BBA25F004E1FFF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11855B20BBA25F004E1FFF /* ApiManager.swift */; };
+		CE11855E20BBACDF004E1FFF /* Convertidor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11855D20BBACDF004E1FFF /* Convertidor.swift */; };
 		CE4B660220B9D32400D103AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B660120B9D32400D103AC /* AppDelegate.swift */; };
 		CE4B660420B9D32400D103AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B660320B9D32400D103AC /* ViewController.swift */; };
 		CE4B660720B9D32400D103AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B660520B9D32400D103AC /* Main.storyboard */; };
@@ -19,7 +21,9 @@
 /* Begin PBXFileReference section */
 		3BD66A7BBBE65EE5FBDDFBB3 /* Pods-cocoaEjemploV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoaEjemploV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocoaEjemploV2/Pods-cocoaEjemploV2.release.xcconfig"; sourceTree = "<group>"; };
 		418207F676B5A9208D0FE3B1 /* Pods-cocoaEjemploV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoaEjemploV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocoaEjemploV2/Pods-cocoaEjemploV2.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0E274020C2516B006D5951 /* ComentarioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentarioModel.swift; sourceTree = "<group>"; };
 		CE11855B20BBA25F004E1FFF /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		CE11855D20BBACDF004E1FFF /* Convertidor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertidor.swift; sourceTree = "<group>"; };
 		CE4B65FE20B9D32400D103AC /* cocoaEjemploV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoaEjemploV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4B660120B9D32400D103AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4B660320B9D32400D103AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				CE11855B20BBA25F004E1FFF /* ApiManager.swift */,
+				CE11855D20BBACDF004E1FFF /* Convertidor.swift */,
+				CE0E274020C2516B006D5951 /* ComentarioModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,9 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0E274120C2516B006D5951 /* ComentarioModel.swift in Sources */,
 				CE4B660420B9D32400D103AC /* ViewController.swift in Sources */,
 				CE11855C20BBA25F004E1FFF /* ApiManager.swift in Sources */,
 				CE4B660220B9D32400D103AC /* AppDelegate.swift in Sources */,
+				CE11855E20BBACDF004E1FFF /* Convertidor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

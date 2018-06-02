@@ -40,6 +40,14 @@
                                     <action selector="btnGetPosts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GoT-Em-D8T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWd-KH-qfM">
+                                <rect key="frame" x="290" y="411" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Get Users"/>
+                                <connections>
+                                    <action selector="btnGetUsers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9iu-gQ-k8j"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPx-rd-Ari">
                                 <rect key="frame" x="137" y="411" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,12 +56,12 @@
                                     <action selector="btnGetComments:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Z8-I0-Txe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWd-KH-qfM">
-                                <rect key="frame" x="290" y="411" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giH-QG-uTH">
+                                <rect key="frame" x="83" y="510" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Get Users"/>
+                                <state key="normal" title="Convertir a Objeto Comentario"/>
                                 <connections>
-                                    <action selector="btnGetUsers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9iu-gQ-k8j"/>
+                                    <action selector="btnConvert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NmQ-F3-4ag"/>
                                 </connections>
                             </button>
                         </subviews>
